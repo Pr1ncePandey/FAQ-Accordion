@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(244, 214, 245);
+}
+
+body,container {
+    width: 500px;
+    height: 300px;
+    display: block;
+}
+
+.container {
+    border: 2px;
+    border-style: none;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.container-head {
+    display: flex;
+    align-items: center;
+}
+
+.container-head-logo {
+    margin-right: 20px;
+}
+
+.btn-plus {
+    border: 1px solid;
+    border-style: none;
+    border-radius: 50%;
+}
+
+.faq-question {
+    font-size: 20px;
+    display: flex;
+    
+}
+
