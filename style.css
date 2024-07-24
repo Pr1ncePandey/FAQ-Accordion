@@ -6,38 +6,44 @@ body {
 }
 
 body,container {
-    width: 500px;
-    height: 300px;
-    display: block;
+    min-height: 100vh;
 }
 
 .container {
-    border: 2px;
+    border: 1px;
     border-style: none;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
     border-radius: 20px;
-
+    position: relative;
 }
 
 .container-head {
     display: flex;
-    align-items: center;
+    justify-content: left;
+    margin-left: 30px;
+    
 }
 
 .container-head-logo {
     margin-right: 20px;
 }
 
+.container img.btn-plus {
+    position: absolute;
+    right: 210px;
+}
+
 .btn-plus {
     border: 1px solid;
-    border-style: none;
+    border: none;
     border-radius: 50%;
 }
 
 .faq-question {
     font-size: 20px;
-    display: flex;
-    
 }
 
+li {
+    list-style: none;
+}
